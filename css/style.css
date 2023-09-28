@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Mukta+Vaani&family=Noto+Sans:wght@400;600;700&family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Koulen', cursive;
+
+    font-family: 'Mukta Vaani', sans-serif;
+
+    font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Work Sans', sans-serif;
+
+
+
+
+
+    margin: 0;
+}
+.banner {
+   background-image: url(img/Banner.png);
+   background-size: 100% 100% ;
+   background-repeat: no-repeat;
+   box-sizing: border-box;
+   height: 1000px;
+}
+
+
+
+.nav {
+    display: flex;
+   justify-content: space-around;
+   padding-top: 73px;
+   gap:35vw;
+}
+
+
+
+.nav1:hover{
+    filter: brightness(80%);
+    
+}
+
+.title {
+    background-color: #4A4A4A;
+    display: flex;
+    height: 800px;
+  
+
+}
+.text {
+    padding-left: 55vw;
+    padding-top: 194px;
+}
+
+.img{
+    position: absolute;
+    padding-left: 15vw;
+    padding-top: 141px;
+    
+}
+
+.h1_text {
+    font-size: 81px;
+    line-height: 100px;
+    letter-spacing: 19px;
+    color: #fff;
+    font-weight: 400; 
+}
+
+.p_text{
+    color: #FFF;
+    display: block;
+    width: 440px;
+   text-align: justify; 
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; 
+    font-family: 'Mukta Vaani';
+
+}
+
+.line {
+    width: 430px;
+    border: #fff solid 1px;
+}
+
+.next {
+    margin-left:90px;
+    margin-top:450px;
+    width: 32px;
+    height: 66px;
+}
+
+.next:hover{
+    filter: brightness(80%);
+}
+
+
+
+.view_gal{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:60px;
+    margin-top:124px;
+    margin-right: 300px;
+}
+
+.gal {
+    font-size: 36px; 
+    display: block;
+    padding: 15px 45px 15px 45px;
+    border-color: #7A797A;
+    border-style: solid;
+   color: #7A797A;
+   text-decoration:none;
+   transition: .4s;
+}
+
+.gal:hover {
+    transition: .4s;
+   
+    background-color: #ececec ;
+
+}
+
+.arrow {
+transition: .4s;
+}
+.arrow:hover {
+    transition: .4s;
+ filter: brightness(80%);
+}
+
+.vases {
+    width: 33px; 
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 43px; 
+    line-height: 1px;
+    letter-spacing: 1px; 
+    color: #7A797A; 
+    padding-top:70px;
+}
+
+.end_title {
+    display: flex;
+    padding-top: 231px;
+    gap:1vw;
+    justify-content: center;
+}
+
+.end_text {
+    color: #4A4A4A; 
+     text-align: center;
+     font-size: 24px; 
+     line-height: 35px;
+     
+
+}
+
+.end_col{
+    border:1px solid  #FFF;
+    transition: border .4s;
+    
+}
+.end_col:hover {
+    border:1px solid #7A797A;
+    background-color: #ececec;
+    transition: border .4s  , background-color .4s;
+}
+
+.footer {
+    display: flex;
+    padding-left: 5vw;
+    gap: 30vw;
+}
+
+.end_mobile {
+    display: none;
+}
+
+@media (max-width:400px) {
+    .banner {
+        background-image: url(img/Banner.png);
+        background-size: 100% 100%;
+        height: 300px;
+    }
+
+    .nav{
+        padding-top: 10px ;
+
+    }
+
+   .main_title {
+    display: none;
+   }
+
+   .view_gal{
+    display: none;
+   }
+   
+
+  .end_title {
+    display: none;
+  }
+
+  .footer { 
+    display: none;
+  }
+
+  .end_mobile{
+    display: contents;
+    justify-items: center;
+  }
+
+  .vaves_mobile {
+    display: grid; 
+    text-orientation: upright;
+    font-size: 20px; 
+  justify-content: center;
+    
+    
+    letter-spacing: 3vw; 
+    color: #7A797A; 
+   
+  }
+  .col_mobile{
+    display: grid; 
+    justify-items:  center;
+    gap:10px  
+  }
+  .col_m{
+    border: solid #7A797A 1px;
+  }
+
+  .img_mobile {
+    width: 300px;
+  }
+  
+  .end_text_mobile {
+    text-align: center;
+    color: #4A4A4A;
+  }
+
+  .gal_mob {
+    font-size: 26px; 
+    display: block;
+    text-align: center;
+    padding: 10px 20px 10px 20px; 
+    border: solid #7A797A 1px;
+    background-color:#f7f7f7 ;
+    margin:1px;
+   color: #7A797A;
+   text-decoration:none;
+
+   
+  }
+
+ .footer_mobile{
+    background-color: #3b3b3b;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+
+ .nav_mob{
+    display: flex;
+    gap:10vw;
+ }
+ 
+
+    
+}
+
